@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    color:lightgrey;
+    
+}
+
+header{
+    position: fixed;
+    top:0;
+    right:0;
+    width:100%;
+    z-index:1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    transition:all ease .1s;
+    background-color:white;
+    padding:20px 15%;
+}
+
+.first{
+    color:darkmagenta;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+    font-size:40px ;
+    font-weight:900;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:25px;
+    transition: all ease .1s;
+}
+
+span{
+    color:darkmagenta;
+}
+
+.home{
+    width:100%;
+    margin-top: 60px;
+    background-color: #eee;
+    height: 70vh;
+    display:flex;
+    align-items: center;
+    gap:15em;
+    padding: 40px 12%;
+}
+
+.home-content{
+    max-width: 800px;
+}
+
+.home-content h3{
+    font-size: 28px;
+    color: black;
+}
+
+.home-content h1{
+    font-size:60px;
+    line-height: 1.2;
+    color:black;
+
+}
+
+.home-content p{
+    font-size: 22px;
+    margin:25px 0 30px;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-box{
+    width:400px;
+    display:flex;
+    gap:2em;
+}
+
+.btn1{
+    padding:15px 28px;
+    background-color:darkmagenta;
+    color:white;
+    border:2px solid transparent;
+    border-radius: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight:600;
+    transition: 0.3 ease;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color:lightgrey;
+}
+
+
+.img-box img{
+    border-radius:20%;
+    width:400px;
+    height:360px;
+    margin-top: 70px;
+    border:2px solid black;
+}
+
+.about{
+    width:100%;
+    height:75vh;
+    padding:78px;
+    background-color:#eee;
+    margin-top: 50px;
+}
+
+.about img{
+    height:430px;
+    width:520px;
+    border-radius: 20%;
+    border:2px solid black;
+}
+
+.about-txt{
+    width:550px;
+}
+
+.main{
+    width:1130px;
+    max-width:95%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:10em;
+}
+
+.about-txt h1{
+    color:black;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+
+.about-txt h5{
+    color:black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+
+}
+
+.about-txt p{
+    color:black;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.about-txt button{
+    padding:15px 28px;
+    background-color:darkmagenta;
+    color:white;
+    border:2px solid transparent;
+    border-radius: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight:600;
+    cursor: pointer;
+}
+
+.about-txt button:hover{
+    background-color:lightgrey;
+}
+
+.container{
+    width:100%;
+    background-color: #eee;
+}
+
+.skill{
+    margin:60px auto;
+    padding:20px;
+    width:800px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #eee;}
+
+.skill:hover{
+    transform:scale(1.1);
+    transition:all 1s;
+
+}
+
+
+.skill h1{
+    text-align: center;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.skill h3{
+    margin:5px;
+    color:black;
+}
+
+.skill li{
+    margin:20px 0;
+    margin-left: 100px;
+    padding:10px;
+}
+
+.bar{
+    background:white;
+    display:block;
+    height:20px;
+    border:1px solid black;
+    border-radius: 10px;
+    width:90%;
+    overflow:hidden;
+}
+
+.bar span{
+    height:20px;
+    float:left;
+    background: linear-gradient(to right,pink, darkmagenta);
+
+}
+
+.html{
+    width:90%;
+    animation:html 3s;
+}
+
+.css{
+    width:70%;
+    animation:html 3s;
+}
+
+
+.javascript{
+    width:60%;
+    animation:html 3s;
+}
+
+
+.other{
+    width:50%;
+    animation:html 3s;
+}
+
+.container1{
+    background-color: #eee ;
+    margin-top: 50px;
+    width:100%;
+    height:85vh;
+}
+
+.container1 h2{
+    text-align: center;
+    font-size:40px;
+    padding:20px;
+    color:black;
+}
+
+.pro1 h4{
+    color: black;
+    font-size: 20px;
+    margin-left: 50px;
+    line-height: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+.pic{
+    display:flex;
+}
+
+.pic img{
+    width:350px;
+    height:350px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border:2px solid black;
+    border-radius: 20px;
+}
+
+.pic img:hover{
+    transform:scale(1.1);
+    transition:all 1s;
+
+}
+
+.container2{
+    margin-top: 50px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh; 
+}
+
+.container2 h2{
+    text-align: center;
+    font-size:40px;
+    padding:20px;
+    color:black;
+
+}
+
+.container2 button{
+    padding:15px 28px;
+    background-color:darkmagenta;
+    border:2px solid transparent;
+    border-radius: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight:600;
+    cursor: pointer;
+}
+.container2 a{
+    color:black;
+}
+.but:hover{
+    background-color:lightgrey;
+}
+
+.contact 
+{
+    background-color: #eee;
+    margin-top: 50px;
+    color: black;
+    width:100%;
+    height:65vh;
+}
+
+.content{
+    text-align: center;
+    font-size:40px;
+    padding:20px;
+}
+
+.contactinfo{
+    margin-top:20px;
+    margin-left: 490px;
+    padding:20px;
+    width:500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #eee;
+}
+
+.box{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact .content h2{
+    font-size: 36px;
+    font-weight:500;
+}
+
+.box .icon{
+    width: 50px;
+    height:70px;
+    background: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size:30px;
+}
+
+.box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+    flex-direction: column;
+
+}
+
+.box .text h3{
+      font-weight: 300;
+      color: darkmagenta;
+}
+
+.footer{
+    background-color: #eee;
+    margin-top: 20px;
+    width: 100%;
+    height:70px;
+}
+
+.footer .con{
+    color: black;
+    display:flex;
+    padding:20px;
+}
+
+.footer .con h3{
+    margin-left: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
